@@ -1,0 +1,398 @@
+running program t3
+~~~~ BEGIN TEST SUITE.  DESC: N inserts + N change_priorities +  N delete_top ops; CORRECTNESS-ONLY ~~~~~
+  ###  TEST 1:   5.00 points
+          DESC: CORRECTNESS-ONLY-TEST-MIN-AT-TOP
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=13; p=-722.830000>; received <id=42, p=-711.880000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=42; p=-711.880000>; received <id=25, p=-698.670000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=25; p=-698.670000>; received <id=49, p=-674.630000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=49; p=-674.630000>; received <id=61, p=-666.390000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=61; p=-666.390000>; received <id=82, p=-653.140000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=82; p=-653.140000>; received <id=4, p=-644.000000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=4; p=-644.000000>; received <id=75, p=-624.010000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=75; p=-624.010000>; received <id=98, p=-619.240000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=98; p=-619.240000>; received <id=36, p=-617.780000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=36; p=-617.780000>; received <id=95, p=-600.170000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=95; p=-600.170000>; received <id=18, p=-573.100000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=18; p=-573.100000>; received <id=83, p=-572.450000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=83; p=-572.450000>; received <id=31, p=-560.130000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=31; p=-560.130000>; received <id=44, p=-557.660000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=44; p=-557.660000>; received <id=68, p=-549.740000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=68; p=-549.740000>; received <id=32, p=-523.680000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=32; p=-523.680000>; received <id=13, p=-722.830000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=26; p=-503.360000>; received <id=77, p=-498.190000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=77; p=-498.190000>; received <id=74, p=-485.020000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=74; p=-485.020000>; received <id=65, p=-474.990000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=65; p=-474.990000>; received <id=92, p=-473.900000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=92; p=-473.900000>; received <id=35, p=-468.570000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=35; p=-468.570000>; received <id=15, p=-452.730000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=15; p=-452.730000>; received <id=26, p=-503.360000>
+     Returned Value      : 0
+     Correct Return Value: 1
+     FAILED
+  ###  END TEST 1
+
+     Score So Far For This Test Suite: 0.00 / 5.00
+  ###  TEST 2:   5.00 points
+          DESC: CORRECTNESS-ONLY-TEST-B-MAX-AT-TOP
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=86; p=68.080000>; received <id=94, p=-647.520000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=15; p=63.230000>; received <id=81, p=5.850000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=36; p=48.520000>; received <id=92, p=-213.900000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=14; p=34.340000>; received <id=74, p=-419.040000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=79; p=19.270000>; received <id=20, p=-429.860000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=81; p=5.850000>; received <id=61, p=-430.710000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=16; p=-11.400000>; received <id=62, p=-169.060000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=91; p=-12.010000>; received <id=65, p=-582.070000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=45; p=-14.910000>; received <id=40, p=-583.080000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=54; p=-27.880000>; received <id=22, p=-603.840000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=66; p=-39.640000>; received <id=89, p=-370.550000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=55; p=-44.330000>; received <id=60, p=-183.120000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=27; p=-44.570000>; received <id=28, p=-509.780000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=24; p=-51.160000>; received <id=27, p=-44.570000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=96; p=-57.220000>; received <id=56, p=-517.140000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=77; p=-74.470000>; received <id=24, p=-51.160000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=97; p=-78.750000>; received <id=29, p=-670.790000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=83; p=-80.450000>; received <id=9, p=-682.030000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=49; p=-106.670000>; received <id=32, p=-275.960000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=76; p=-115.440000>; received <id=53, p=-694.870000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=7; p=-116.850000>; received <id=35, p=-348.930000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=73; p=-126.230000>; received <id=95, p=-240.210000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=64; p=-143.560000>; received <id=52, p=-377.820000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=12; p=-163.760000>; received <id=80, p=-541.620000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=6; p=-165.500000>; received <id=43, p=-432.250000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=62; p=-169.060000>; received <id=45, p=-14.910000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=60; p=-183.120000>; received <id=41, p=-354.270000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=47; p=-188.970000>; received <id=66, p=-39.640000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=13; p=-190.990000>; received <id=18, p=-801.020000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=84; p=-201.260000>; received <id=3, p=-836.090000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=92; p=-213.900000>; received <id=5, p=-582.310000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=48; p=-229.580000>; received <id=19, p=-836.290000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=10; p=-235.240000>; received <id=26, p=-235.360000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=26; p=-235.360000>; received <id=1, p=-810.830000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=95; p=-240.210000>; received <id=21, p=-810.350000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=68; p=-249.420000>; received <id=59, p=-524.370000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=67; p=-272.490000>; received <id=58, p=-549.380000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=32; p=-275.960000>; received <id=93, p=-534.390000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=25; p=-310.510000>; received <id=0, p=-481.700000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=44; p=-313.740000>; received <id=11, p=-624.410000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=39; p=-332.890000>; received <id=8, p=-519.720000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=33; p=-342.950000>; received <id=17, p=-378.430000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=42; p=-345.100000>; received <id=46, p=-884.000000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=35; p=-348.930000>; received <id=83, p=-80.450000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=4; p=-351.600000>; received <id=30, p=-389.460000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=41; p=-354.270000>; received <id=97, p=-78.750000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=31; p=-364.130000>; received <id=47, p=-188.970000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=89; p=-370.550000>; received <id=6, p=-165.500000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=52; p=-377.820000>; received <id=12, p=-163.760000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=17; p=-378.430000>; received <id=34, p=-885.340000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=30; p=-389.460000>; received <id=25, p=-310.510000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=50; p=-397.180000>; received <id=99, p=-556.050000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=63; p=-412.690000>; received <id=75, p=-560.530000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=74; p=-419.040000>; received <id=14, p=34.340000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=82; p=-419.200000>; received <id=15, p=63.230000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=20; p=-429.860000>; received <id=50, p=-397.180000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=61; p=-430.710000>; received <id=48, p=-229.580000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=43; p=-432.250000>; received <id=2, p=-889.940000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=85; p=-470.630000>; received <id=82, p=-419.200000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=0; p=-481.700000>; received <id=38, p=-579.800000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=28; p=-509.780000>; received <id=10, p=-235.240000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=56; p=-517.140000>; received <id=51, p=-724.810000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=8; p=-519.720000>; received <id=90, p=-715.280000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=59; p=-524.370000>; received <id=78, p=-561.300000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=93; p=-534.390000>; received <id=13, p=-190.990000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=80; p=-541.620000>; received <id=49, p=-106.670000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=58; p=-549.380000>; received <id=88, p=-709.980000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=99; p=-556.050000>; received <id=63, p=-412.690000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=75; p=-560.530000>; received <id=7, p=-116.850000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=78; p=-561.300000>; received <id=33, p=-342.950000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=87; p=-564.650000>; received <id=39, p=-332.890000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=38; p=-579.800000>; received <id=79, p=19.270000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=65; p=-582.070000>; received <id=77, p=-74.470000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=5; p=-582.310000>; received <id=67, p=-272.490000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=40; p=-583.080000>; received <id=57, p=-890.590000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=98; p=-585.540000>; received <id=72, p=-907.680000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=22; p=-603.840000>; received <id=98, p=-585.540000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=11; p=-624.410000>; received <id=31, p=-364.130000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=94; p=-647.520000>; received <id=4, p=-351.600000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=29; p=-670.790000>; received <id=44, p=-313.740000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=9; p=-682.030000>; received <id=85, p=-470.630000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=53; p=-694.870000>; received <id=87, p=-564.650000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=88; p=-709.980000>; received <id=55, p=-44.330000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=90; p=-715.280000>; received <id=16, p=-11.400000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=51; p=-724.810000>; received <id=68, p=-249.420000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=69; p=-754.110000>; received <id=36, p=48.520000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=18; p=-801.020000>; received <id=54, p=-27.880000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=21; p=-810.350000>; received <id=37, p=-914.190000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=1; p=-810.830000>; received <id=42, p=-345.100000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=3; p=-836.090000>; received <id=73, p=-126.230000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=19; p=-836.290000>; received <id=84, p=-201.260000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=46; p=-884.000000>; received <id=76, p=-115.440000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=34; p=-885.340000>; received <id=64, p=-143.560000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=2; p=-889.940000>; received <id=69, p=-754.110000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=57; p=-890.590000>; received <id=96, p=-57.220000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=72; p=-907.680000>; received <id=91, p=-12.010000>
+empty-and-check ERROR TYPE 2: mismatched IDs
+empty-and-check ERROR TYPE 3: mismatched priorities
+        Expected <id=37; p=-914.190000>; received <id=86, p=68.080000>
+     Returned Value      : 0
+     Correct Return Value: 1
+     FAILED
+  ###  END TEST 2
+
+     Score So Far For This Test Suite: 0.00 / 10.00
+
+
+ #####   TESTS_COMPLETED ######  
+
+
+    FINAL RESULTS OF TESTS:  
+
+
+        AUTOSCORED:    0.00 / 10.00
+
+
+          AUTO TESTS PASSED:  0
+          AUTO TESTS FAILED:  2
+~~~~ END TESTS OF N inserts + N change_priorities +  N delete_top ops; CORRECTNESS-ONLY ~~~~~
+~~~~     AUTO__SCORE:      0.00 / 10.00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

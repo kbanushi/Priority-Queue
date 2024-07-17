@@ -1,0 +1,97 @@
+running program t8
+~~~~ BEGIN TEST SUITE.  DESC: 2nd MISHMASH of randomized pq_ operations ~~~~~
+  ###  TEST 1:   5.00 points
+          DESC: CORRECTNESS-ONLY-TEST-MIN-AT-TOP
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=16; p=17.320000>; received <id=5, p=18.100000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=5; p=18.100000>; received <id=30, p=20.420000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=30; p=20.420000>; received <id=16, p=17.320000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=62; p=26.200000>; received <id=32, p=26.320000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=32; p=26.320000>; received <id=99, p=27.310000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=99; p=27.310000>; received <id=73, p=33.490000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=42; p=29.840000>; received <id=24, p=31.480000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=24; p=31.480000>; received <id=62, p=26.200000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=86; p=33.008600>; received <id=42, p=29.840000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=73; p=33.490000>; received <id=29, p=36.002900>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=29; p=36.002900>; received <id=86, p=33.008600>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=60; p=44.460000>; received <id=63, p=47.150000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=63; p=47.150000>; received <id=60, p=44.460000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=70; p=50.240000>; received <id=52, p=51.005200>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=52; p=51.005200>; received <id=70, p=50.240000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=18; p=57.001800>; received <id=98, p=57.009800>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=98; p=57.009800>; received <id=23, p=58.002300>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=23; p=58.002300>; received <id=18, p=57.001800>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=49; p=60.980000>; received <id=78, p=61.007800>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=78; p=61.007800>; received <id=71, p=62.007100>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=71; p=62.007100>; received <id=49, p=60.980000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=69; p=68.006900>; received <id=46, p=73.920000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=81; p=69.290000>; received <id=69, p=68.006900>
+ MISHMASH TEST: 400 pq_ operations performed; 23 failed (zero is good!)
+     Returned Value      : 0
+     Correct Return Value: 1
+     FAILED
+  ###  END TEST 1
+
+     Score So Far For This Test Suite: 0.00 / 5.00
+
+
+ #####   TESTS_COMPLETED ######  
+
+
+    FINAL RESULTS OF TESTS:  
+
+
+        AUTOSCORED:    0.00 / 5.00
+
+
+          AUTO TESTS PASSED:  0
+          AUTO TESTS FAILED:  1
+~~~~ END TESTS OF 2nd MISHMASH of randomized pq_ operations ~~~~~
+~~~~     AUTO__SCORE:      0.00 / 5.00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

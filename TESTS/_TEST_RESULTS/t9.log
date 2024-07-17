@@ -1,0 +1,102 @@
+running program t9
+~~~~ BEGIN TEST SUITE.  DESC: 3rd MISHMASH of randomized pq_ operations ~~~~~
+  ###  TEST 1:   5.00 points
+          DESC: CORRECTNESS-ONLY-TEST
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=58; p=10.400000>; received <id=49, p=13.370000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=49; p=13.370000>; received <id=58, p=10.400000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=30; p=20.420000>; received <id=65, p=21.010000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=65; p=21.010000>; received <id=62, p=26.200000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=62; p=26.200000>; received <id=99, p=27.310000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=47; p=27.230000>; received <id=55, p=27.470000>
+  one_get_priority ERROR TYPE 1 - one succeeded, other failed?
+     id: 99
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=99; p=27.310000>; received <id=30, p=20.420000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=55; p=27.470000>; received <id=47, p=27.230000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=29; p=36.002900>; received <id=69, p=37.210000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=69; p=37.210000>; received <id=29, p=36.002900>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=64; p=60.300000>; received <id=1, p=64.000100>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=1; p=64.000100>; received <id=97, p=64.009700>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=97; p=64.009700>; received <id=64, p=60.300000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=81; p=69.290000>; received <id=69, p=68.006900>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=85; p=73.050000>; received <id=81, p=69.290000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=34; p=74.440000>; received <id=85, p=73.050000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=57; p=77.250000>; received <id=34, p=74.440000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=5; p=77.410000>; received <id=57, p=77.250000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=33; p=84.003300>; received <id=5, p=77.410000>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=49; p=84.004900>; received <id=33, p=84.003300>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=49; p=16.004900>; received <id=93, p=84.009300>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=93; p=84.009300>; received <id=49, p=84.004900>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=13; p=92.001300>; received <id=29, p=92.002900>
+  one_del_top ERROR TYPE 2: mismatched IDs
+  one_del_top ERROR TYPE 3: mismatched priorities
+        Expected <id=29; p=92.002900>; received <id=13, p=92.001300>
+ MISHMASH TEST 3: 400 pq_ operations performed; 27 failed (zero is good!)
+     Returned Value      : 0
+     Correct Return Value: 1
+     FAILED
+  ###  END TEST 1
+
+     Score So Far For This Test Suite: 0.00 / 5.00
+
+
+ #####   TESTS_COMPLETED ######  
+
+
+    FINAL RESULTS OF TESTS:  
+
+
+        AUTOSCORED:    0.00 / 5.00
+
+
+          AUTO TESTS PASSED:  0
+          AUTO TESTS FAILED:  1
+~~~~ END TESTS OF 3rd MISHMASH of randomized pq_ operations ~~~~~
+~~~~     AUTO__SCORE:      0.00 / 5.00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
